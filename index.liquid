@@ -1,13 +1,25 @@
 extends: default.liquid
 ---
+<h1 class='title'>Marcel Müller - Web Developer</h1>
+<p class='aboutme'>
+    <span class="passion">I'm a passionate Web Developer.</span>
+    Working with modern tools I craft beautiful websites, and web applications.
+</p>
+<p>
+    I pride myself in being able to create websites that look great on the both
+    the desktop and mobile devices.
+</p>
+<p>
+    You can reach me at "neikos <at> neikos.email"
+</p>
 <div >
-  <h2>Some Example Work</h2>
-  <div>
-    {% for post in posts %}
-      <div>
-        <h4>{{post.title}}</h4>
-        <h4><a href="{{post.path}}">{{ post.title }}</a></h4>
-      </div>
-    {% endfor %}
-  </div>
+    <h2>Some Example Work</h2>
+    <div>
+        {% for post in posts %}
+            <div>
+                <h4>{{post.title}}</h4>
+                <h4><a href="{{post.path}}">{{ post.title }}</a></h4>
+            </div>
+        {% endfor %}
+    </div>
 </div>
