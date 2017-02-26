@@ -1,0 +1,6 @@
+name: Marcel Müller
+source: "."
+dest: "build"
+ignore:
+  - .git/*
+  - build/*
